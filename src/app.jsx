@@ -1,7 +1,11 @@
 import './app.css'
 import {Exemplo} from './Exemplo'
 export default function App() {
-const listaAlunos = ["Moniky", "Ani", "Mari", "Mafer"];
+const listaAlunos = [
+    {nome: "Moniky", idade: 15, cidade: "Nova Andradina"},
+    {nome: "Anielly", idade: 16, cidade: "Nova Andradina"},
+    {nome: "Mafer", idade: 16, cidade: "Nova Andradina"}
+];
     return (
         <div>
             <h1> Hello World!</h1>
